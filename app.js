@@ -31,9 +31,19 @@ function checkAge(name2, age) {
 checkAge('Charles', 21)
 checkAge('Abby', 27)
 checkAge('James', 18)
-checkAge('John', 17)
+checkAge('Adam', 17)
 
 let veg = ['corn', 'okra', 'squash'];
 for(let i = 0; i < veg.length; i++) {
     console.log(veg[i]);
-}
+};
+
+let ofAge = [
+    {name2:'John', age: 20},
+    {name2:'Hannah', age: 22},
+    {name2:'Bill', age: 19},
+    {name2:'Jessica', age: 24},
+    {name2:'Steve', age: 18}
+];
+for(let i = 0; i < ofAge.length; i++) {
+    checkAge(ofAge[i].name2, ofAge[i].age)};
