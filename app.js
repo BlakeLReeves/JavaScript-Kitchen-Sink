@@ -28,10 +28,10 @@ function checkAge(name2, age) {
         alert(`Sorry ${name2}, you aren't old enough to view this page!`);
     }
 }
-checkAge('Charles', 21)
-checkAge('Abby', 27)
-checkAge('James', 18)
-checkAge('Adam', 17)
+checkAge('Charles', 21);
+checkAge('Abby', 27);
+checkAge('James', 18);
+checkAge('Adam', 17);
 
 let veg = ['corn', 'okra', 'squash'];
 for(let i = 0; i < veg.length; i++) {
@@ -47,3 +47,14 @@ let ofAge = [
 ];
 for(let i = 0; i < ofAge.length; i++) {
     checkAge(ofAge[i].name2, ofAge[i].age)};
+
+function getLength(word) {
+    if(word.length % 2 == 0) {
+        alert('The world is nice and even!');
+    } else {
+        alert('The world is an odd place!');
+    }
+    return word.length;
+}
+console.log(getLength('Hello World'));
+console.log(getLength('even'));
