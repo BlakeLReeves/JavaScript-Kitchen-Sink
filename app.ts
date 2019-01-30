@@ -21,7 +21,7 @@ if(nameVar.charCodeAt(0) >= 76) {
 }
 
 function sayHello() {
-    alert('Hello World!');
+    alert('Hello Typescript!');
 }
 sayHello();
 
